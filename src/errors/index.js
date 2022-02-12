@@ -5,11 +5,9 @@ const WalletProcessError        = require("./WalletInterfaceError/WalletProcessE
 const WalletError               = require("./WalletInterfaceError/WalletProcessError/WalletError/WalletError");
 const CCVaultError              = require("./WalletInterfaceError/WalletProcessError/WalletError/CCVaultError/CCVaultError");
 const NamiError                 = require("./WalletInterfaceError/WalletProcessError/WalletError/NamiError/NamiError");
-const FlintExperimentalError    = require("./WalletInterfaceError/WalletProcessError/WalletError/FlintExperimentalError/FlintExperimentalError");
+const FlintError                = require("./WalletInterfaceError/WalletProcessError/WalletError/FlintError/FlintError");
 const YoroiError                = require("./WalletInterfaceError/WalletProcessError/WalletError/YoroiError/YoroiError");
 const GeroError                 = require("./WalletInterfaceError/WalletProcessError/WalletError/GeroError/GeroError");
-
-
 
 module.exports = {
     WalletInterfaceError,
@@ -18,7 +16,7 @@ module.exports = {
     WalletError,
     CCVaultError,
     NamiError,
-    FlintExperimentalError,
+    FlintError,
     YoroiError,
     GeroError
 }
